@@ -1,0 +1,110 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(136, 60, 60);
+            text-align: center;
+            padding: 20px;
+            background-image: url(https://i.pinimg.com/236x/f9/fb/e7/f9fbe7bbc90bc8d25be722237dcb096a.jpg);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: #811a1a;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px #0000001a;
+            background-image: url(https://i.pinimg.com/enabled_hi/236x/d0/eb/4a/d0eb4acd5625f1e7b68fabd6d4759e94.jpg);
+        }
+
+        #memeContainer {
+            position:fixed;
+            margin: fixed;
+            width: fixed;
+            max-width:fixed;
+            color: aliceblue;
+        }
+
+        #memeImage {
+            width: 500px;
+            height: auto;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .memeText {
+            position: absolute;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+            text-shadow: 2px 2px 4px #000;
+            pointer-events: none;
+        }
+
+        #topText {
+            top: 10px;
+        }
+
+        #bottomText {
+            bottom: 10px;
+            
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        form label {
+            display: block;
+            margin: 5px 0;
+        }
+
+        form input[type="text"], form input[type="file"], form button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            color: #1d1717;
+        }
+
+        form button {
+            background-color: #4CAF50;
+            color: rgb(20, 19, 19);
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 4px;
+        }
+
+        form button:hover {
+            background-color: #1b1f1b;
+        }
+
+        .memeText {
+            position: absolute;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+            color: rgb(95, 70, 70);
+            text-shadow: 1px 1px 2px #a52c2c;
+        }
+        address{
+          font-size: large;
+         color: #f8f2f2;
+        }
+        h1{
+            color: #f8f2f2;
+        }
+
+        
+        
+
+
+        
+    
+
