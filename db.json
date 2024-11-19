@@ -2,31 +2,26 @@
     {
         "id": 1,
         "topText": "nimoto😄",
-        "bottomText": "moto😅",
         "imageUrl": "https://i.pinimg.com/564x/58/2c/a5/582ca5981cfd77542f1c6a80ea37d0ca.jpg"
     },
     {
         "id": 2,
         "topText": "nibad😅",
-        "bottomText": "bad😅",
         "imageUrl": "https://i.pinimg.com/enabled_hi/564x/8e/fb/75/8efb7500330f2448b247bb8aff2a0058.jpg"
     },
     {
         "id": 3,
         "topText": "huwangabad😅",
-        "bottomText": "bad😅",
         "imageUrl": "https://i.pinimg.com/564x/8a/58/6c/8a586c5f85077ba6d1ef5348511930d5.jpg"
     },
     {
         "id": 4,
         "topText": "ni noma😁",
-        "bottomText": "noma😁",
         "imageUrl": "https://i.pinimg.com/564x/07/f3/e8/07f3e83532d25623396371205ce16562.jpg"
     },
     {
         "id": 5,
         "topText": "Entertainment😄",
-        "bottomText": "😅",
         "imageUrl": "https://i.pinimg.com/564x/4e/ed/db/4eeddbff3df5b0ab181fe39c4a42473d.jpg"
     }
 ]

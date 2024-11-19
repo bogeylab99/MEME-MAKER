@@ -1,110 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(136, 60, 60);
+    text-align: center;
+    padding: 20px;
+    background-image: url(https://i.pinimg.com/236x/f9/fb/e7/f9fbe7bbc90bc8d25be722237dcb096a.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
 
-        body {
-            font-family: Arial, sans-serif;
-            background-color: rgb(136, 60, 60);
-            text-align: center;
-            padding: 20px;
-            background-image: url(https://i.pinimg.com/236x/f9/fb/e7/f9fbe7bbc90bc8d25be722237dcb096a.jpg);
-        }
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #811a1a;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #0000001a;
+    background-image: url(https://i.pinimg.com/enabled_hi/236x/d0/eb/4a/d0eb4acd5625f1e7b68fabd6d4759e94.jpg);
+    background-size: cover;
+}
 
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-            background: #811a1a;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px #0000001a;
-            background-image: url(https://i.pinimg.com/enabled_hi/236x/d0/eb/4a/d0eb4acd5625f1e7b68fabd6d4759e94.jpg);
-        }
+#memeContainer {
+    position: relative;
+    max-width: 600px; /* Limit max width for better layout */
+    margin: 20px auto;
+    overflow: hidden; /* Ensures content stays within the container */
+    padding: 10px;
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
 
-        #memeContainer {
-            position:fixed;
-            margin: fixed;
-            width: fixed;
-            max-width:fixed;
-            color: aliceblue;
-        }
+#memeImage {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto; /* Centers the image inside the container */
+}
 
-        #memeImage {
-            width: 500px;
-            height: auto;
-            border-radius: 8px;
-            text-align: center;
-        }
+.memeText {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+    pointer-events: none;
+}
 
-        .memeText {
-            position: absolute;
-            left: 0;
-            width: 100%;
-            text-align: center;
-            font-size: 24px;
-            font-weight: bold;
-            color: white;
-            text-shadow: 2px 2px 4px #000;
-            pointer-events: none;
-        }
+#topText {
+    top: 10px;
+}
 
-        #topText {
-            top: 10px;
-        }
+#bottomText {
+    bottom: 10px;
+}
 
-        #bottomText {
-            bottom: 10px;
-            
-        }
+form {
+    margin-top: 20px;
+    color: #f8f2f2;
+}
 
-        form {
-            margin-top: 20px;
-        }
+form label {
+    display: block;
+    margin: 5px 0;
+}
 
-        form label {
-            display: block;
-            margin: 5px 0;
-        }
+form input[type="text"],
+form input[type="file"],
+form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    color: #1f1c1c;
+}
 
-        form input[type="text"], form input[type="file"], form button {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-            box-sizing: border-box;
-            color: #1d1717;
-        }
+form button {
+    background-color: #4CAF50;
+    color: rgb(20, 19, 19);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+}
 
-        form button {
-            background-color: #4CAF50;
-            color: rgb(20, 19, 19);
-            border: none;
-            cursor: pointer;
-            padding: 10px;
-            border-radius: 4px;
-        }
+form button:hover {
+    background-color: #1b1f1b;
+}
 
-        form button:hover {
-            background-color: #1b1f1b;
-        }
+/* Ensure text fits inside the container */
+.memeText {
+    font-size: 20px; /* Adjust for smaller displays */
+    word-wrap: break-word;
+    padding: 0 5px; /* Adds spacing for mobile layout */
+}
 
-        .memeText {
-            position: absolute;
-            left: 0;
-            width: 100%;
-            text-align: center;
-            font-size: 14px;
-            font-weight: bold;
-            color: rgb(95, 70, 70);
-            text-shadow: 1px 1px 2px #a52c2c;
-        }
-        address{
-          font-size: large;
-         color: #f8f2f2;
-        }
-        h1{
-            color: #f8f2f2;
-        }
+#memeImage {
+    max-width: 100%; 
+}
 
-        
-        
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
 
+    .container {
+        padding: 10px;
+    }
 
-        
-    
+    #memeContainer {
+        max-width: 100%;
+    }
 
+    .memeText {
+        font-size: 18px;
+        padding: 0;
+    }
+
+    form input[type="text"],
+    form input[type="file"],
+    form button {
+        padding: 8px;
+    }
+
+    form button {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    address {
+        font-size: medium;
+    }
+
+    #memeImage {
+        max-width: 100%;
+        height: auto;
+    }
+}

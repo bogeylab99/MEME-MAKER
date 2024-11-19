@@ -2,48 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <metaname="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meme Maker</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Mememaker🫥🫥😅😂🤣</h1>
-        <div id="Container">
-            <img id="memeImage" src="https://i.pinimg.com/enabled_hi/564x/4c/58/ed/4c58ed46403cc39a55fa8c01466912c7.jpg" alt="Meme Image" />
+        <h1>Meme Maker 🫥🫥😅😂🤣</h1>
+        
+        <!-- Meme Container -->
+        <div id="Container" class="memeContainer">
+            <img id="memeImage" src="https://i.pinimg.com/enabled_hi/564x/4c/58/ed/4c58ed46403cc39a55fa8c01466912c7.jpg" alt="Meme Image">
             <div id="Text" class="memeText"></div>
             <div id="typetext" class="memeText"></div>
         </div>
         
+        <!-- Meme Form -->
         <form id="memeForm">
-            <label for="topTextInput">Text:</label>
-            <input type="text" id="topTextInput" required>
-            
-            <label for="bottomTextInput">Bottom Text:</label>
-            <input type="text" id="bottomTextInput" required>
-            
+            <label for="topTextInput">Top Text:</label>
+            <input type="text" id="topTextInput" placeholder="Enter top text" required>
             <label for="imageInput">Select Image:</label>
             <input type="file" id="imageInput" accept="image/*" required>
             
             <button type="submit">Create Meme</button>
         </form>
+        
+        <!-- Saved Memes Section -->
+        <h2>Saved Memes</h2>
         <select id="memeIdSelect">
-            <option value="">select a Meme</option>
+            <option value="" disabled selected>Select a saved meme</option>
         </select>
-
     </div> 
-    <h1>For Funny clips click the link below</h1>
-      
-      <p>
-      Video courtesy of 
-      <a href="https://www.youtube.com/shorts/BFuvXUH6OI4?feature=share" target="_blank">youtubeshorts</a>.
-      </p>
-      <address>
-        <h2>contact me on:</h2>
-        follow me on instagram <a href="https://www.instagram.com/browny_wa_umo/#" target="_blank">instagram</a>
-        whatsapp<a href="https://wa.me/qr/OZFEMXZ72SNJB1" targert="_blank">whatsapp</a>
-      </address>
-      
+
+    <h1>For Funny Clips Click the Link Below</h1>
+    <p>
+        Video courtesy of 
+        <a href="https://www.youtube.com/shorts/BFuvXUH6OI4?feature=share" target="_blank">YouTube Shorts</a>.
+    </p>
+    
+    <address>
+        <h2>Contact Me:</h2>
+        Follow me on Instagram: 
+        <a href="https://www.instagram.com/browny_wa_umo/" target="_blank">Instagram</a> <br>
+        WhatsApp: 
+        <a href="https://wa.me/qr/OZFEMXZ72SNJB1" target="_blank">WhatsApp</a>
+    </address>
+    
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
